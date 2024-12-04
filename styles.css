@@ -452,6 +452,7 @@ h3 {
     color: var(--color-primary);
     display: flex;
     flex-direction: column;
+    padding: 0 25px 0 25px;
 }
 
 .sponsor-us-tier-info {
@@ -462,6 +463,7 @@ h3 {
     color: var(--color-primary);
     display: flex;
     flex-direction: column;
+    padding: 0 25px 0 25px;
 }
 
 .sponsor-us-tiers {
@@ -695,13 +697,36 @@ h3 {
         text-align: center;
     }
 
+    .about-section h1 {
+        font-size: larger;
+    }
+
+    .about-section p {
+        font-size: medium;
+    }
+
     .about-section img {
         width: 350px;
+    }
+
+    .sponsor-section h1 {
+        font-size: medium;
+    }
+
+    .hero-button {
+        text-decoration: none;
+        padding: 25px;
+        background-color: var(--color-borders);
+        border: none;
+        border-radius: 25px;
+        color: var(--color-primary);
+        font-size: medium;
     }
 
     .event-section {
         flex-direction: column;
         text-align: center;
+        font-size: larger;
     }
     .event-header {
         padding-right: 0px;
@@ -709,16 +734,47 @@ h3 {
 
     /* About Styles */
 
+    .about-overview {
+        padding: 0 25px 0 20px;
+    }
+
+    .about-overview h1 {
+        padding-top: 20%;
+        font-size: larger;
+    }
+
+    .about-overview p {
+        font-size: large;
+    }
+
+    .about-first {
+        padding: 0 25px 0 20px;
+    }
+
+    .about-first h1 {
+        font-size: larger;
+    }
+
+    .about-first p {
+        font-size: large;
+    }
+
 
     /* Sponsor list Styles */
 
     .sponsor-card-list {
         justify-content: flex-start;
+        max-height: 350px;
     }
     .sponsor-card {
+        max-height: 300px;
         min-width: 220px;
         align-items: center;
         margin-left: 25px;
+        font-size: medium;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        min-width: none;
     }
 
     .sponsor-card-last {
@@ -728,38 +784,52 @@ h3 {
     }
 
     .sponsor-card p {
-        padding-top: 25px;
-        font-size: 1.75rem;
+        display: none;
+        font-size: 0;
     }
 
     /* Sponsor Us Styles */
 
+    .sponsor-us-intro {
+        font-size: medium;
+    }
+
+    .sponsor-us-tier-info {
+        font-size: medium;
+    }
+
     .sponsor-us-diamond {
         flex-direction: column;
         justify-content: center;
+        font-size: medium;
     }
 
     .sponsor-us-tier-label {
         margin-bottom: 50px;
+        font-size: medium;
     }
 
     .sponsor-us-platinum {
         flex-direction: column;
         justify-content: center;
+        font-size: medium;
     }
 
     .sponsor-us-gold {
         flex-direction: column;
         justify-content: center;
+        font-size: medium;
     }
 
     .sponsor-us-silver {
         flex-direction: column;
         justify-content: center;
+        font-size: medium;
     }
 
     .sponsor-us-bronze {
         flex-direction: column;
         justify-content: center;
+        font-size: medium;
     }
 }
