@@ -774,15 +774,21 @@ h3 {
         font-size: medium;
         padding-bottom: 0px;
         margin-bottom: 0px;
-        min-width: none;
     }
 
     .sponsor-card-last {
-        min-width: 225px;
+        max-height: 300px;
+        min-width: 220px;
         margin-right: 25px;
         align-items: center;
+        font-size: medium;
     }
 
+    .sponsor-card-last p {
+        display: none;
+        font-size: 0;
+    }
+    
     .sponsor-card p {
         display: none;
         font-size: 0;
